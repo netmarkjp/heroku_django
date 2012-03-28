@@ -8,6 +8,7 @@
 PROJECT_NAME="$1"
 
 if [ "${PROJECT_NAME}x" = "x" ]
+then
     echo 'Error: Enter project name.'
     exit 1
 fi
