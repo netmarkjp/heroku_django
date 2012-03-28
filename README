@@ -1,0 +1,16 @@
+what's done in installation script 
+------------------------------------------
+1. virtualenv
+2. install django 1.3 with pip
+3. install psycopg2 with pip
+4. install gunicorn with pip
+5. create new django project
+6. rewrite settings.py for heroku
+7. rewrite settings.py for japanese in japan
+8. create git repository
+9. create application in heroku
+10. push application
+
+usage
+------------------------------------------
+setup.sh <APPNAME>
