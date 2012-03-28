@@ -13,4 +13,9 @@ what's done in installation script
 
 usage
 ------------------------------------------
-setup.sh <APPNAME>
+curl -O https://raw.github.com/netmarkjp/heroku_django/master/setup.sh
+setup.sh <PROJECT_NAME>
+
+or
+
+bash -c "$(curl https://raw.github.com/netmarkjp/heroku_django/master/setup.sh)" - <PROJECT_NAME>
