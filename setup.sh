@@ -7,6 +7,11 @@
 
 PROJECT_NAME="$1"
 
+if [ "${PROJECT_NAME}x" = "x" ]
+    echo 'Error: Enter project name.'
+    exit 1
+fi
+
 virtualenv --no-site-packages .
 source bin/activate
 bin/pip install django==1.3
